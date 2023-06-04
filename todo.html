@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="myDIV" class="header">
+        <h2 style="margin:5px">To-Do List</h2>
+        <input type="text" id="myInput" placeholder="Agrega una tarea">
+        <span onclick="newElement()" class="addBtn">+</span>
+    </div>
+    <div class="conteos">
+        <div class="total-tasks">
+            Total Tasks: <span>0</span>
+        </div>
+        <div class="completed-tasks">
+            Completed Tasks: <span>0</span>
+        </div>
+        <div class="remaining-tasks">
+            Remaining Tasks: <span>0</span>
+        </div>
+    </div>
+    </div>
+    <div class="buttons">
+        <span onclick="compAll()" class="compBtn">Complete All</span>
+        <span onclick="delAll()" class="delBtn">Delete All</span>
+
+    </div>
+
+    <ul id="myUL">
+
+    </ul>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
